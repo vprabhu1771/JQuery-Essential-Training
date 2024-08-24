@@ -1,0 +1,39 @@
+index.html
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Evening</p>
+
+<p>Good Night</p>
+
+
+main.css
+
+p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.selected {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.mark {
+    color: red;
+}
+
+main.js
+
+$(document).ready(function(){
+
+    // adds an array of classes to be added to the class attribute
+    // of each match element
+    $('p').addClass(['selected', 'highlight']);
+
+});

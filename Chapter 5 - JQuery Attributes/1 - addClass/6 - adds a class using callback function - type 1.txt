@@ -1,0 +1,59 @@
+index.html
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Evening</p>
+
+<p>Good Night</p>
+
+
+main.css
+
+p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.selected {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.mark {
+    color: red;
+}
+
+main.js
+
+$(document).ready(function(){
+
+    // A function returning one or more space - separated class names
+    // to be added to the existing class names.
+
+    // receives the index position of the element in the set and the existing
+    // class names as arguments
+
+    // within the function this refers to the current element in the set.
+
+    $('p').last().addClass('selected');
+
+    $('p').addClass(function(index, currentClass){
+
+        if(currentClass === 'selected') {
+            
+            return 'highlight';
+
+        }
+        else
+        {
+            return 'mark';
+        }
+
+    });
+
+});

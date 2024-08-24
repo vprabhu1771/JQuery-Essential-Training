@@ -1,0 +1,7 @@
+yard add jquery
+
+this will install jquery in the node_modules directory.
+
+node_mouldes -> jquery -> dist  
+
+you will find an uncompressed release, compressed release and map file.

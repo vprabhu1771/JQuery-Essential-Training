@@ -1,0 +1,16 @@
+$(document).ready(function() {
+
+    // Your AJAX request
+    $.get("category.php", function(data) {
+
+        // Loop through the data and append rows to the table
+        $.each(data, function(index, item) {
+
+            var row = "<tr><td>" + item.category_id + "</td><td>" + item.category_name + "</td></tr>";
+
+            $("#categoryTable tbody").append(row);
+
+        });
+    });
+
+});

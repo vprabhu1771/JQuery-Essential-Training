@@ -1,0 +1,16 @@
+$(document).ready(function () {
+
+    console.log("Document Loaded");
+
+    $('#roll_no').keyup(function (event) {
+
+        // console.log("typing");
+
+        var roll_no_original = $('#roll_no').val()
+
+
+        $('#roll_no').val(roll_no_original.toLowerCase());
+        
+    });
+
+});

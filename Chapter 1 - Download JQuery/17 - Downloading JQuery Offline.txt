@@ -1,0 +1,42 @@
+1) Select Whole Web Page
+
+Windows		Mac OS		Linux
+
+CTRL + A	COMMAND + A	CTRL + A
+
+
+2) Create New File
+
+File -> New File
+
+
+3) Copy Whole Selected Web Page
+
+Windows		Mac OS		Linux
+
+CTRL + C	COMMAND + C	CTRL + C
+
+
+4) Paste Whole Selected Web Page to Newly Created File
+
+Windows		Mac OS		Linux
+
+CTRL + V	COMMAND + V	CTRL + V
+
+
+5) Save The Newly Created File to your project location
+
+Windows		Mac OS		Linux
+
+CTRL + S	COMMAND + S	CTRL + S
+
+
+6) Compressed
+
+File -> Save -> jquery.<version_number>.min.js
+
+
+7) UnCompressed
+
+File -> Save -> jquery.<version_number>.js
+

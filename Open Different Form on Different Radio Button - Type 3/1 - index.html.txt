@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <label>
+        <input type="radio" name="driverType" value="junior" checked>
+        Junior Driver
+    </label>
+
+    <label>
+        <input type="radio" name="driverType" value="jcb">
+        JCB Operator
+    </label>
+
+    <label>
+        <input type="radio" name="driverType" value="heavy">
+        Heavy Vehicle Driver
+    </label>
+
+    <br><br>
+
+
+    <div class="form form-junior">
+
+        <h2>Junior Driver Form</h2>
+        
+        <form>
+        
+            <label for="juniorName">Name:</label>
+        
+            <input type="text" id="juniorName" name="juniorName">
+        
+            <!-- Add more form controls as needed -->
+        
+        </form>
+
+      </div>
+    
+      <div class="form form-jcb">
+        
+        <h2>JCB Operator Form</h2>
+        
+        <form>
+        
+            <label for="jcbName">Name:</label>
+        
+            <input type="text" id="jcbName" name="jcbName">
+        
+            <!-- Add more form controls as needed -->
+        
+        </form>
+
+      </div>
+    
+      <div class="form form-heavy">
+        
+        <h2>Heavy Vehicle Driver Form</h2>
+        
+        <form>
+        
+            <label for="heavyName">Name:</label>
+        
+            <input type="text" id="heavyName" name="heavyName">
+        
+            <!-- Add more form controls as needed -->
+        
+        </form>
+      
+    </div>
+
+
+</body>
+
+</html>

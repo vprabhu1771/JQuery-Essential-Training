@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <label>
+        <input type="radio" name="colorCheckbox" value="red" checked>
+        red
+    </label>
+
+    <label>
+        <input type="radio" name="colorCheckbox" value="green">
+        green
+    </label>
+    
+    <label>
+        <input type="radio" name="colorCheckbox" value="blue">
+        blue
+    </label>
+
+    <div class="form form-red">
+        Red Form Content
+    </div>
+
+    <div class="form form-green">
+        Green Form Content
+    </div>
+
+    <div class="form form-blue">
+        Blue Form Content
+    </div>
+
+</body>
+
+</html>

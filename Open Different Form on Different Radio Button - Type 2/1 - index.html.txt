@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <label>
+        <input type="radio" name="driverType" value="junior" checked>
+        Junior Driver
+    </label>
+
+    <label>
+        <input type="radio" name="driverType" value="jcb">
+        JCB Operator
+    </label>
+
+    <label>
+        <input type="radio" name="driverType" value="heavy">
+        Heavy Vehicle Driver
+    </label>
+
+    <br><br>
+
+
+    <div class="form form-junior">
+        Junior Driver Form Content
+    </div>
+
+    <div class="form form-jcb">
+        JCB Operator Form Content
+    </div>
+
+    <div class="form form-heavy">
+        Heavy Vehicle Driver Form Content
+    </div>
+
+
+</body>
+
+</html>

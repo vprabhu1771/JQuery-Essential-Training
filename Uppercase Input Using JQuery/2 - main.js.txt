@@ -1,0 +1,14 @@
+$(document).ready(function(){
+
+    console.log("Document Loaded");
+
+    $('#uppercase').on('click', function(){
+
+        var roll_no_original = $('#roll_no').val()
+
+
+        $('#roll_no').val(roll_no_original.toUpperCase());
+
+    });
+  
+});

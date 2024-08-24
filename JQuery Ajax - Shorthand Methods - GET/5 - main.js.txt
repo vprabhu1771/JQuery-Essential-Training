@@ -1,0 +1,16 @@
+$(document).ready(function() {
+
+    // Button click event
+    $("#getDataBtn").click(function() {
+
+        // AJAX request using $.get() shorthand method
+        $.get("getData.php", function(data) {
+
+            // Update a div with the received data
+            $("#result").html(data);
+            
+        });
+
+    });
+    
+});

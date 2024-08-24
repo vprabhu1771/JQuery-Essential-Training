@@ -1,0 +1,53 @@
+index.html
+
+<p>Good Morning</p>
+
+<p>Good Afternoon</p>
+
+<p>Good Evening</p>
+
+<p>Good Night</p>
+
+
+main.css
+
+p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.test-0 {
+    color: #f39c12;
+}
+
+.test-1 {
+    color: #d35400;
+}
+
+.test-2 {
+    color: #c03926;
+}
+
+.test-3 {
+    color: #531911;
+}
+
+main.js
+
+$(document).ready(function(){
+
+    $('p').addClass(function(index, currentClass){
+
+        if(currentClass === '') {
+            
+            return 'test-' + index;
+
+        }
+        else
+        {
+            return '';
+        }
+
+    });
+
+});

@@ -1,0 +1,3 @@
+1) Right Click Download the uncompressed, development jQuery <leatest_version>
+
+2) Open Link In New Tab

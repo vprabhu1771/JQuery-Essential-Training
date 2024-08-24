@@ -1,0 +1,8 @@
+<?php
+
+// Simulate some data from the server
+$data = "This is data from the server.";
+
+// Send the data as the response
+echo $data;
+?>

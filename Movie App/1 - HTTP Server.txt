@@ -1,0 +1,30 @@
+The error you're encountering, "Cross-Origin Request Blocked," is due to the Same Origin Policy, which restricts web pages from making requests to a different domain than the one that served the web page. This policy is in place to prevent potential security vulnerabilities.
+
+In your case, you are running your HTML file from the local file system (`file:///D:/osome-movie-app/`), and you are trying to make an AJAX request to load a JSON file (`movies.json`) also from the local file system. Browsers often block such requests for security reasons.
+
+To resolve this issue, consider using a local server to serve your files. You can use tools like Node.js with `http-server`, Python with `SimpleHTTPServer` (for Python 2) or `http.server` (for Python 3), or other similar tools.
+
+Here's an example using Node.js and `http-server`:
+
+1. Install `http-server` globally (if not installed):
+   
+   npm install -g http-server
+   
+
+2. Navigate to the directory containing your HTML and JSON files and run:
+   
+   http-server
+   
+
+3. Open your browser and access your files at `http://localhost:8080` (or another port).
+
+This will start a local server, and you should be able to make AJAX requests without encountering the Cross-Origin Request Blocked error.
+
+Remember to update your AJAX request URL to use the new server URL, for example:
+
+$.getJSON("http://localhost:8080/movies.json", function(data) {
+    // Your code here
+});
+
+
+Make sure to replace `"http://localhost:8080"` with the appropriate URL for your local server.

@@ -1,0 +1,26 @@
+$(document).ready(function(){
+
+    console.log("Document Loaded");
+
+    $('#show_password').on('click', function(){
+
+        var password_field = $('#password');
+
+        var password_field_type = password_field.attr('type');
+
+        if (password_field_type == 'password') 
+        {
+            password_field.attr('type', 'text');
+
+            $(this).text('Hide');
+        }
+        else
+        {
+            password_field.attr('type', 'password');
+
+            $(this).text('Show');
+        }
+
+    });
+
+});

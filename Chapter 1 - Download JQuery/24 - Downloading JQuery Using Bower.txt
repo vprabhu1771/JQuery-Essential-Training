@@ -1,0 +1,10 @@
+bower install jquery
+
+
+this will install jquery to bower's install directory. 
+
+the default being bower_components.
+
+bower_components -> jquery -> dist 
+
+you will find an uncompressed release, compressed release, and a map file

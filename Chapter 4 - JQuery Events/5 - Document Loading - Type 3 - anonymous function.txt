@@ -1,0 +1,32 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script src="main.js"></script>
+</head>
+<body>
+    
+
+</body>
+</html>
+
+main.js
+
+// Specify a function to execute when the DOM 
+
+// Document Object Model is Fully Loaded
+
+$(function () {
+    
+    console.log("anonymous function");
+
+});

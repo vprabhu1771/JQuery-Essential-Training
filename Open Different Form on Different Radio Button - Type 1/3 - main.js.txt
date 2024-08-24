@@ -1,0 +1,14 @@
+$(document).ready(function () {
+
+    function selectForm() {
+        $("div.form").hide();
+        $("div.form-" + $("input:checked").val()).show();
+    }
+
+    selectForm();
+
+    $("input").click(function () {
+        selectForm();
+    });
+    
+});
